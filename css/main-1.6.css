@@ -18,6 +18,11 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/bg-pic.png);
 }
 
 ::-moz-selection {

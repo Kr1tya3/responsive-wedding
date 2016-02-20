@@ -1,28 +1,17 @@
-/** embedded font double rendering issue fix -- https://css-tricks.com/forums/discussion/10449/weird-mobile-safari-font-face-problem-font-doubled-and-offset-to-the-left-/p1 **/
-h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-    font-weight: normal;
+html, body, .container {
+  height: 100%;
 }
 
-/* ==========================================================================
-   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
-
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(../img/bg-pic.jpg);
+body { 
+  font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
 }
 
 ::-moz-selection {
@@ -875,4 +864,5 @@ a.email {
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
+
 

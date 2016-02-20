@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(../img/bg-pic.png);
+    background-image: url(../img/bg-pic.jpg);
 }
 
 ::-moz-selection {

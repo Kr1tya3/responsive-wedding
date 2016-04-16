@@ -57,6 +57,14 @@ textarea {
     padding: 0.2em 0;
 }
 
+.carousel-image {
+    width: 80%;
+    height: auto;
+}
+
+.page-image {
+    text-align: center;
+}
 
 /* ===== Initializr Styles ==================================================
    Author: Bradley Greenwood
